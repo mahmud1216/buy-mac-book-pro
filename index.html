@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Buy Mac Book Pro</title>
+</head>
+<body>
+    <section class="container pt-5">
+        <div class="row g-2">
+            <div class="col d-flex align-items-center justify-content-center">
+                <img class="w-75" id="mac-pic" src="images/mac.png" alt="">
+    
+            </div>
+            <div class="col">
+                <h1><strong>Customize your Blue 24-inch iMac with Apple M1 chip</strong></h1>
+                <p class="pt-2">Apple M1 chip with 8-core CPU with 4 performancecores and 4 efficiency cores, 7-core GPU, and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt USB 4 ports Magic Mouse Magic Keyboard-US English</p>
+
+
+                <!-- Memory Buttons -->
+                <div class="py-5">
+                  <h6><strong>Memory</strong></h6>
+                  <button id="memory-8gb" type="button" class="btn btn-outline-dark">8GB unified memory</button>
+                  <button id="memory-16gb" type="button" class="btn btn-outline-dark">16GB unified memory</button>
+                </div>
+
+
+                <!-- Storage Button -->
+                <div class="pb-5">
+                    <h6><strong>Storage</strong></h6>
+                    <button id="storage-256gb" type="button" class="btn btn-outline-dark">256GB SSD storage</button>
+                    <button id="storage-500gb" type="button" class="btn btn-outline-dark">512GB SSD storage</button>
+                    <button id="storage-1tb" type="button" class="btn btn-outline-dark">1TB SSD storage</button>
+                </div>
+
+
+                <!-- Choose your delivery option Button -->
+                <div class="pb-5">
+                    <h6><strong>Choose your delivery option</strong></h6>
+                <button id="regular-delivery" type="button" class="btn btn-outline-dark">Friday, Aug 25 FREE Prime Delivery</button>
+                <button id="fast-delivery" type="button" class="btn btn-outline-dark">Friday, Aug 21 Delivery charge $20</button>
+                </div>
+
+
+
+                <table class="table my-2">
+                    <tr>
+                      <th scope="col">Best Price</th>
+                      <th scope="col">$<span id="best-price">1299</span></th>
+                    </tr>
+                  
+                    <tr>
+                      <th scope="col">Extra Memory Cost</th>
+                      <th scope="col">$<span id="extra-memory-cost">0</span></th>
+                    </tr>
+                    <tr>
+                      <th scope="col">Extra Storage Cost</th>
+                      <th scope="col">$<span id="extra-storage-cost">0</span></th>
+                    </tr>
+                    <tr>
+                      <th scope="col">Delivery charge</th>
+                      <th scope="col">$<span id="extra-delivery-charge">0</span></th>
+                    </tr>
+                    <tbody>
+                    <tr>
+                      <th scope="col">Total Price</th>
+                      <th scope="col">$<span id="total-price">1299</span></th>
+                    </tr>
+                  </table>
+
+
+                  <!-- Pomo Code Button -->
+                  <div class="my-5">
+                    <p>Add Promo code</p>
+                    <div  class="input-group w-50">
+                      <input id="promo-code-input" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <button id="promo-code" type="button" class="btn btn-danger">Apply</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <hr>
+
+
+        <h1 class="text-center"><strong class="text-danger">Total:</strong> $<span id="final-total">1299</span></h1>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
